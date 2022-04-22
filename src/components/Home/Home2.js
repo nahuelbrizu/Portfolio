@@ -19,11 +19,9 @@ function Home2() {
               Let Me <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
-              Im  <i>
-              <b className="purple">  Javascript </b>
-             Nawe
-              <b className="purple">  Java  </b>
-            </i>
+              <i>Im</i>
+              <b className="purple">   Nahuel  </b>
+              I am a self-taught programmer.
               <br />
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
