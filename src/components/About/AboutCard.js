@@ -11,6 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Nahuel Brizuela </span>
             from <span className="purple"> Buenos Aires, Argentina.</span>
             <br />I am a self-taught programmer
+            I have my interest set on continuing improving my skills, constantly updating  my knowledg in the  Programming field
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
