@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="217px" height="237px" viewBox="0 0 217 237" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg width="217px" height="237px" viewBox="0 0 217 237" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
     <title>mf-avatar</title>
     <desc>Created with Sketch.</desc>
@@ -18,8 +18,8 @@
                 <mask id="mask-2" fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>
-                <use id="Circle-Background" fill="#972dc2" xlink:href="#path-1"></use>
-                <g id="🖍-Circle-Color" mask="url(#mask-2)" fill="#8a4ca8">
+                <use id="Circle-Background" fill="#295294" xlink:href="#path-1"></use>
+                <g id="🖍-Circle-Color" mask="url(#mask-2)" fill="#295294">
                     <rect id="🖍Color" x="0" y="0" width="216.445361" height="216"></rect>
                 </g>
             </g>
@@ -33,7 +33,7 @@
                         <use xlink:href="#path-5"></use>
                     </mask>
                     <use fill="#D0C6AC" xlink:href="#path-5"></use>
-                    <g id="Skin/👶🏻-05-Pale" mask="url(#mask-6)" fill="#FFDBB4">
+                    <g id="Skin" mask="url(#mask-6)" fill="#d46a3d">
                         <g transform="translate(-28.800000, 0.000000)" id="Color">
                             <rect x="0" y="0" width="238.383871" height="220.354839"></rect>
                         </g>
