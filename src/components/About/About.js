@@ -35,7 +35,7 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Professional <strong className="purple">Skill Set </strong>
         </h1>
 
         <Techstack />
@@ -52,3 +52,4 @@ function About() {
 }
 
 export default About;
+
