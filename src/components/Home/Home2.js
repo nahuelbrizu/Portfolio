@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -15,7 +14,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1  style={{ fontSize: "2.6em" }}>
               Let Me <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
@@ -83,7 +82,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/nahuel-brizuela-75b567235/"
+                  href="www.linkedin.com/in/nahuelgasbrizuela"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

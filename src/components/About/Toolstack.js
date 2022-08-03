@@ -7,6 +7,7 @@ import {
     SiAmazon,
     SiMysql,
 } from "react-icons/si";
+import {DiBootstrap, DiDatabase, DiDocker, DiGithub, DiGithubAlt, DiNodejs} from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -23,6 +24,18 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiDatabase />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiDocker />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiBootstrap />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiGithub />
+        </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazon />
       </Col>
