@@ -8,25 +8,25 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Nahuel Brizuela </span>
-            from <span className="purple"> Buenos Aires, Argentina.</span>
-            <br />I am a self-taught programmer
+            Hola!!, Soy <span className="purple">Nahuel Brizuela </span>
+            de <span className="purple"> Buenos Aires, Argentina.</span>
+            <br />Soy un Programador Autodidacta
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Ademas de programar.. Tambien me gusta
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight />   Study Code
+              <ImPointRight />   Buscar Nuevas Tecnologias
             </li>
             <li className="about-activity">
-              <ImPointRight />  Play Music
+              <ImPointRight />  Practicar instrumento 🎸
             </li>
             <li className="about-activity">
-              <ImPointRight />  Travelling
+              <ImPointRight />  Viajar
             </li>
             <li className="about-activity">
-              <ImPointRight />  Playing Games
+              <ImPointRight />  Hacer Deportes
             </li>
           </ul>
 

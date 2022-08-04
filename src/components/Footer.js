@@ -16,7 +16,7 @@ function Footer() {
             <h3>Nahuel Brizuela</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-            <h3>   Nahuelgbrizuela@gmail.com      </h3>
+            <h3>   Nahuelgbrizuela@gmail.com   {year}   </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -32,7 +32,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/nahuel-brizuela-75b567235/"
+                href="https://www.linkedin.com/in/nahuelgasbrizuela"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -48,16 +48,6 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                  href="https://www.linkedin.com/in/nahuel-brizuela-75b567235/"
-                  style={{ color: "white" }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
               </a>
             </li>
           </ul>

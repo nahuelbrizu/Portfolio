@@ -18,42 +18,37 @@ function Home2() {
               Let Me <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
-              <i>Im</i>
-              <b className="purple">   Nahuel  </b>
-              I am a self-taught programmer.
+              <i>Soy</i>
+              <b className="purple">   Nahuel   </b>
+              un programador autodidacta
+              <br />Me enamoré de la programación hace ya muchos años
+               Aunque todavia soy un aprendiz
+              <br/>
               <br />
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br /> My favorite language is
+              Mis campos de interés son   &nbsp;
               <i>
-                <b className="purple">  Javascript </b>
-                but i'm also interested in
-                <b className="purple">  Java  </b>
-              </i>
-              <br />
-              <br />
-              My fields of Interest are new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also areas related to{" "}
+                <b className="purple"> las nuevas tecnologías y productos web  </b>
+              ademas, las áreas relacionadas con el  {" "}
                 <b className="purple">
-                  Deep Learning and Natural Language Processing.
+                 aprendizaje profundo en el procesamiento del lenguaje.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Ruby on Rails, Mysql</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+              También aplico mi pasión a la hora de continuar aprendiendo
+              <b className="purple"> habilidades o herramientas </b>
+              para poder estar actualizado..
+              <br />
+              <br />
+              <i> Mis Herramientas de
+                <b className="purple">  trabajo   </b>
+                son
+                <b className="purple"> Javascript, Java, Ruby on Rails, Mysql, Html, Css y Ubuntu..  </b>
               </i>
-              &nbsp; like
+              <br />
+              &nbsp;
               <i>
-                <b className="purple"> React.js and Material-UI.</b>
+                <b className="purple"> </b>
               </i>
             </p>
           </Col>
@@ -82,7 +77,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="www.linkedin.com/in/nahuelgasbrizuela"
+                  href="https://www.linkedin.com/in/nahuelgasbrizuela"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
