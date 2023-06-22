@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <h2 className="img-fluid logo" alt="brand" >NB</h2>
+          <h2 className="img-fluid logo" alt="brand" >Portfolio Nahuel Brizuela</h2>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -68,15 +68,27 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
+
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/nahuelbrizu"
                 target="_blank"
                 className="fork-btn-inner"
               >
+
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                  as={Link}
+                  to="/resume"
+                  onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> CV
+              </Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
