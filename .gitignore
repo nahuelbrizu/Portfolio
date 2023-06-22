@@ -19,8 +19,13 @@
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
+# Yarn
+  ########################################
+  run "yarn add bootstrap @popperjs/core"
+  append_file "app/javascript/application.js", <<~JS
+    import "bootstrap"
+  JS
 
-yarn-error.log*
-
+  # Rubocop
+  ########################################
+  run "curl -L https://raw.githubusercontent.com/lewagon/rails-templates/master/.rubocop.yml > .rubocop.yml"
