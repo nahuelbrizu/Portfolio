@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-     "https://github.com/nahuelbrizu/Portfolio/blob/a1ab357180a83e1c124facdac8c57b21e69ca1e4/src/Assets/ResumeNahuelBrizuela.pdf";
+     "https://docs.google.com/document/d/e/2PACX-1vSDERiQgPafDuyyAXemq8fwDtRRfsDc2qE-oamatCCvPwpPz7ljYl2HJ2rYqtm0-3dl_P4urHG4m9hL/pub";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
