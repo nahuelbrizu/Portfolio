@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d71b3f10.css",
+    "main.js": "/Portfolio/static/js/main.e300fb5b.js",
+    "static/js/415.a76b28dd.chunk.js": "/Portfolio/static/js/415.a76b28dd.chunk.js",
+    "static/js/787.b439b43d.chunk.js": "/Portfolio/static/js/787.b439b43d.chunk.js",
+    "static/media/codeEditor.png": "/Portfolio/static/media/codeEditor.ba9458794dca1c746ef2.png",
+    "static/media/blog.png": "/Portfolio/static/media/blog.52102140f369ea233010.png",
+    "static/media/chatify.png": "/Portfolio/static/media/chatify.9373eddae1a258056c35.png",
+    "static/media/leaf.png": "/Portfolio/static/media/leaf.4c15d6eb3fc75cfef85b.png",
+    "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/ResumeNahuelBrizuela.pdf": "/Portfolio/static/media/ResumeNahuelBrizuela.6634960583db684fdb2d.pdf",
+    "static/media/suicide.png": "/Portfolio/static/media/suicide.b72f1f9ffeb4775a7803.png",
+    "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/emotion.jpeg": "/Portfolio/static/media/emotion.e92e314a236f65bb89af.jpeg",
+    "static/media/avatar.svg": "/Portfolio/static/media/avatar.80ca999635ef491c1c1b6c6efdb472f2.svg",
+    "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.d71b3f10.css.map": "/Portfolio/static/css/main.d71b3f10.css.map",
+    "main.e300fb5b.js.map": "/Portfolio/static/js/main.e300fb5b.js.map",
+    "415.a76b28dd.chunk.js.map": "/Portfolio/static/js/415.a76b28dd.chunk.js.map",
+    "787.b439b43d.chunk.js.map": "/Portfolio/static/js/787.b439b43d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d71b3f10.css",
+    "static/js/main.e300fb5b.js"
+  ]
+}
