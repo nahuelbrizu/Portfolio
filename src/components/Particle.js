@@ -8,7 +8,7 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 160,
+            value: 120,
             density: {
               enable: true,
               value_area: 1500,
@@ -46,7 +46,7 @@ function Particle() {
             },
           },
         },
-        retina_detect: true,
+        retina_detect: false,
       }}
     />
   );

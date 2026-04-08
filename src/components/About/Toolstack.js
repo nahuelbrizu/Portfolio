@@ -7,7 +7,7 @@ import {
     SiAmazon,
     SiMysql,
 } from "react-icons/si";
-import {DiBootstrap, DiDatabase, DiDocker, DiGithub, DiGithubAlt, DiNodejs} from "react-icons/di";
+import {DiBootstrap, DiDatabase, DiDocker, DiGithub} from "react-icons/di";
 
 function Toolstack() {
   return (

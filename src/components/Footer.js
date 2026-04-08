@@ -2,13 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
@@ -38,16 +35,6 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/naawwe/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
               </a>
             </li>
           </ul>

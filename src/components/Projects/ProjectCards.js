@@ -2,8 +2,10 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { BiLinkExternal } from "react-icons/bi";
+import { useTranslation } from "react-i18next";
 
 function ProjectCards(props) {
+  const { t } = useTranslation();
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
@@ -14,7 +16,7 @@ function ProjectCards(props) {
         </Card.Text>
         <Button variant="primary" href={props.link} target="_blank">
           <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Project"}
+          {props.isBlog ? "View Blog" : t('projects.view_project')}
         </Button>
       </Card.Body>
     </Card>

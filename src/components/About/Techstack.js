@@ -5,13 +5,10 @@ import {
     DiReact,
     DiNodejs,
     DiMysql,
-    DiPython,
-    DiGit, DiJava, DiCss3, DiHtml5, DiPhotoshop, DiApple, DiLinux, DiIllustrator,
+    DiJava, DiCss3, DiHtml5, DiPhotoshop, DiApple, DiIllustrator,
 } from "react-icons/di";
 import {
-    SiPytorch,
-    SiNextdotjs,
-    SiJava, SiRubygems,
+    SiRubygems,
 } from "react-icons/si";
 
 function Techstack() {

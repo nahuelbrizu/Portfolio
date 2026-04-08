@@ -2,59 +2,35 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import { useTranslation } from "react-i18next";
 import {
   AiFillGithub,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+  const { t } = useTranslation();
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
             <h1  style={{ fontSize: "2.6em" }}>
-              Let Me <span className="purple"> Introduce </span> Myself
+              {t('home2.introduce')}
             </h1>
             <p className="home-about-body">
-              <i>Im</i>
-              <b className="purple">   Nahuel  </b>
-              I am a self-taught programmer.
+              {t('home2.p1')}
               <br />
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br /> My favorite language is
-              <i>
-                <b className="purple">  Javascript </b>
-                but i'm also interested in
-                <b className="purple">  Java  </b>
-              </i>
+              {t('home2.p2')}
               <br />
               <br />
-              My fields of Interest are new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Language Processing.
-                </b>
-              </i>
+              {t('home2.p3')}
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Ruby on Rails, Mysql</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Material-UI.</b>
-              </i>
+              {t('home2.p4')}
+              <br />
+              <br />
+              {t('home2.p5')}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -88,16 +64,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/naawwe"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
