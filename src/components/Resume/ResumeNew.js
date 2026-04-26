@@ -8,7 +8,12 @@ import { Document, Page, pdfjs } from "react-pdf";
 import { useTranslation } from "react-i18next";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
+// Use an alternative worker configuration that is more robust for CRA
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.js',
+  import.meta.url,
+).toString();
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -49,6 +54,7 @@ function ResumeNew() {
           <Document 
             file={pdf} 
             onLoadSuccess={onDocumentLoadSuccess}
+            onLoadError={console.error}
             className="d-flex flex-column align-items-center"
           >
             {Array.from(new Array(numPages), (el, index) => (
