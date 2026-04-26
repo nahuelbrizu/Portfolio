@@ -284,6 +284,11 @@ button:focus {
   color: #cd5ff8;
 }
 
+.typewriter-container {
+  padding: 50px;
+  text-align: left;
+}
+
 .Typewriter__wrapper {
   font-size: 2.2em !important;
   color: #be6adf !important;
@@ -295,13 +300,28 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .home-header {
+    text-align: center !important;
+  }
+  .heading {
+    padding-left: 0 !important;
+    font-size: 2em !important;
+  }
+  .heading-name {
+    padding-left: 0 !important;
+    font-size: 2.1em !important;
+  }
+  .typewriter-container {
+    padding: 20px 0 !important;
+    text-align: center !important;
+  }
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    position: absolute !important;
+    position: relative !important;
   }
   .Typewriter__cursor {
-    display: none !important;
+    display: inline-block !important;
   }
 }
 
