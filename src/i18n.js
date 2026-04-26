@@ -17,6 +17,21 @@ const resources = {
       "projects.title_highlight": "Works",
       "projects.subtitle": "Here are a few projects I've worked on recently.",
       
+      "projects.raices_network.title": "Raíces Network",
+      "projects.raices_network.desc": "A professional web platform for high-performance network solutions. Features detailed service auditing, infrastructure design, and an integrated technical blog.",
+      
+      "projects.raices_gestion.title": "Raíces Management",
+      "projects.raices_gestion.desc": "A robust internal system for operational control, featuring technical audit forms, real-time KPI tracking, and a mobile-first portal for field technicians.",
+      
+      "projects.audioproject.title": "Lingo IA",
+      "projects.audioproject.desc": "A real-time conversational engine powered by FSM (Finite State Machines). Handles multi-session voice interactions with low-latency barge-in support.",
+      
+      "projects.glammap.title": "GlamMap",
+      "projects.glammap.desc": "A geolocation-based web application integrated with Google Maps API to discover and manage premium locations and services.",
+      
+      "projects.turnos_estetica.title": "Turnos Estética",
+      "projects.turnos_estetica.desc": "A full-stack booking system for beauty services. Includes geolocated business search, interactive scheduling, and a comprehensive management dashboard.",
+
       "projects.dashboard.title": "Dashboard Next",
       "projects.dashboard.desc": "A modern and responsive dashboard application built using Next.js and TypeScript. It leverages the power of server-side rendering and static site generation for optimal performance and SEO.",
       
@@ -65,6 +80,21 @@ const resources = {
       "projects.title_highlight": "Recientes",
       "projects.subtitle": "Aquí hay algunos proyectos en los que he trabajado últimamente.",
       
+      "projects.raices_network.title": "Raíces Network",
+      "projects.raices_network.desc": "Plataforma web profesional para soluciones de red de alto rendimiento. Incluye auditorías de servicio, diseño de infraestructura y un blog técnico integrado.",
+      
+      "projects.raices_gestion.title": "Raíces Gestión",
+      "projects.raices_gestion.desc": "Sistema interno robusto para control operativo, con formularios de auditoría técnica, seguimiento de KPIs en tiempo real y portal móvil para técnicos.",
+      
+      "projects.audioproject.title": "Lingo IA",
+      "projects.audioproject.desc": "Motor conversacional en tiempo real basado en máquinas de estado (FSM). Gestiona interacciones de voz multi-sesión con soporte de interrupción de baja latencia.",
+      
+      "projects.glammap.title": "GlamMap",
+      "projects.glammap.desc": "Aplicación web de geolocalización integrada con la API de Google Maps para descubrir y gestionar lugares y servicios premium.",
+      
+      "projects.turnos_estetica.title": "Turnos Estética",
+      "projects.turnos_estetica.desc": "Sistema full-stack de reservas para servicios estéticos. Incluye búsqueda geolocalizada, agenda interactiva y dashboard de gestión integral.",
+
       "projects.dashboard.title": "Dashboard Next",
       "projects.dashboard.desc": "Una aplicación de panel moderna y adaptable construida con Next.js y TypeScript. Aprovecha el renderizado del lado del servidor y la generación de sitios estáticos para un rendimiento y SEO óptimos.",
       

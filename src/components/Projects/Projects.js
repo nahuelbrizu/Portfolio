@@ -2,6 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import raicesNetwork from "../../Assets/Projects/raices-network.png";
+import raicesGestion from "../../Assets/Projects/raices-gestion.png";
+import audioProject from "../../Assets/Projects/audioproject.png";
+import glamMap from "../../Assets/Projects/glammap.png";
+import turnosEstetica from "../../Assets/Projects/turnos-estetica.png";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
@@ -26,11 +31,64 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={raicesNetwork}
+              isBlog={false}
+              title={t('projects.raices_network.title')}
+              description={t('projects.raices_network.desc')}
+              link="https://github.com/nahuelbrizu/raices-network"
+              demoLink="https://raices-network.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={raicesGestion}
+              isBlog={false}
+              title={t('projects.raices_gestion.title')}
+              description={t('projects.raices_gestion.desc')}
+              link="https://github.com/nahuelbrizu/raices"
+              demoLink="https://raices-gestion.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={audioProject}
+              isBlog={false}
+              title={t('projects.audioproject.title')}
+              description={t('projects.audioproject.desc')}
+              link="https://github.com/nahuelbrizu/audioProject"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={glamMap}
+              isBlog={false}
+              title={t('projects.glammap.title')}
+              description={t('projects.glammap.desc')}
+              link="https://github.com/nahuelbrizu/glamMap"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={turnosEstetica}
+              isBlog={false}
+              title={t('projects.turnos_estetica.title')}
+              description={t('projects.turnos_estetica.desc')}
+              link="https://github.com/nahuelbrizu/services_calendar"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={chatify}
               isBlog={false}
               title={t('projects.dashboard.title')}
               description={t('projects.dashboard.desc')}
               link="https://github.com/nahuelbrizu/dashboard_next"
+              demoLink="https://dashboard-next.vercel.app/"
             />
           </Col>
 
