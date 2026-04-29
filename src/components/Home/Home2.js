@@ -15,11 +15,12 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1  style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: "2.6em" }}>
               {t('home2.introduce')}
             </h1>
             <p className="home-about-body">
               {t('home2.p1')}
+              <br />
               <br />
               {t('home2.p2')}
               <br />
@@ -28,9 +29,6 @@ function Home2() {
               <br />
               <br />
               {t('home2.p4')}
-              <br />
-              <br />
-              {t('home2.p5')}
             </p>
           </Col>
           <Col md={4} className="myAvtar">

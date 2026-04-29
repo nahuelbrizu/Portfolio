@@ -68,11 +68,10 @@ const resources = {
       "resume.download": "Download CV",
 
       "home2.introduce": "LET ME INTRODUCE MYSELF",
-      "home2.p1": "Im Nahuel I am a self-taught programmer.",
-      "home2.p2": "I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️",
-      "home2.p3": "My favorite language is Javascript but i'm also interested in Java",
-      "home2.p4": "My fields of Interest are new Web Technologies and Products and also areas related to Deep Learning and Natural Language Processing.",
-      "home2.p5": "Whenever possible, I also apply my passion for developing products with Ruby on Rails, Mysql and Modern Javascript Library and Frameworks like React.js and Material-UI.",
+      "home2.p1": "I am Nahuel, an IT specialist and self-taught developer passionate about operational efficiency. My focus is not just writing code, but building infrastructures that run themselves.",
+      "home2.p2": "My main ecosystem is JavaScript and TypeScript, which I use to automate critical processes, although I maintain a solid foundation in Java for robust architectures.",
+      "home2.p3": "My current fields of interest are cloud infrastructure automation, Microsoft 365/Intune environment optimization, and the implementation of AI-based solutions to improve technical support.",
+      "home2.p4": "I apply my expertise by developing tools with Node.js, React.js, and SQL databases, bridging the world of software with the stability of enterprise systems.",
       
       "lang.switch_en": "EN",
       "lang.switch_es": "ES"
@@ -199,6 +198,11 @@ i18n
     fallbackLng: "en",
     interpolation: {
       escapeValue: false 
+    }
+  });
+
+export default i18n;
+eValue: false 
     }
   });
 
