@@ -6,14 +6,12 @@ import pdf from "../../Assets/CV_Nahuel_Brizuela.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import { useTranslation } from "react-i18next";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import "react-pdf/dist/esm/Page/TextLayer.css";
 
-// Use an alternative worker configuration that is more robust for CRA
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
-  import.meta.url,
-).toString();
+// Use CDN for the worker and styles to avoid issues with Webpack and GitHub pages subdirectories
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
+// Import styles from CDN since local imports were failing
+const annotationStyles = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf_viewer.min.css`;
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -21,10 +19,19 @@ function ResumeNew() {
   const { t } = useTranslation();
 
   useEffect(() => {
+    // Add the CSS link to the document head
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = annotationStyles;
+    document.head.appendChild(link);
+    
     const handleResize = () => setWidth(window.innerWidth);
     window.addEventListener("resize", handleResize);
     handleResize();
-    return () => window.removeEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      document.head.removeChild(link);
+    };
   }, []);
 
   function onDocumentLoadSuccess({ numPages }) {

@@ -285,18 +285,28 @@ button:focus {
 }
 
 .typewriter-container {
-  padding: 50px;
+  background-color: rgba(103, 24, 122, 0.4); /* Fondo púrpura translúcido */
+  backdrop-filter: blur(8px);
+  padding: 20px 40px !important;
+  border-radius: 30px;
+  border-top-left-radius: 0; /* Forma de globo */
+  margin-top: 20px;
+  margin-left: 45px;
+  display: inline-block;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   text-align: left;
+  max-width: 90%;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #ffffff !important; /* Texto blanco para mejor contraste */
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #ffffff !important;
 }
 
 @media (max-width: 767px) {
@@ -312,13 +322,16 @@ button:focus {
     font-size: 2.1em !important;
   }
   .typewriter-container {
-    padding: 20px 0 !important;
+    padding: 15px 25px !important;
+    margin-left: 0 !important;
+    margin-top: 30px;
     text-align: center !important;
+    border-radius: 20px;
+    border-top-left-radius: 20px; /* En móvil, mejor centrado */
   }
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    position: relative !important;
   }
   .Typewriter__cursor {
     display: inline-block !important;

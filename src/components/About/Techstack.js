@@ -1,19 +1,35 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-    DiJavascript1,
-    DiReact,
-    DiNodejs,
-    DiMysql,
-    DiJava, DiCss3, DiHtml5, DiPhotoshop, DiApple, DiIllustrator,
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiMysql,
+  DiPython,
+  DiJava,
 } from "react-icons/di";
 import {
-    SiRubygems,
+  SiTypescript,
+  SiPostgresql,
+  SiAmazonaws,
+  SiMicrosoftazure,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftazure />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
@@ -24,29 +40,14 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRubygems />
+        <DiJava />
       </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiJava />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiCss3 />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiHtml5 />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiPhotoshop />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiApple />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiIllustrator />
-        </Col>
     </Row>
   );
 }

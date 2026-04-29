@@ -12,6 +12,19 @@ const resources = {
       "home.hi": "Hi There!",
       "home.im": "I'm",
       "home.name": "Nahuel Brizuela",
+
+      // Typewriter strings
+      "type.welcome": "Welcome to my Portfolio",
+      "type.fullstack": "Full Stack Developer",
+      "type.software_eng": "Software Engineer",
+      "type.problem_solver": "Analytical and problem solver",
+      "type.passionate": "Passionate about technology and innovation",
+      "type.learning": "Dedicated to continuous learning and growth",
+      "type.testing": "Automated testing and quality assurance",
+      "type.collaborative": "Collaborative team player",
+      "type.communication": "Effective communication skills",
+      "type.adaptable": "Adaptable and quick learner",
+      "type.work_ethic": "Strong work ethic and attention to detail",
       
       "projects.title": "My Recent Works",
       "projects.title_highlight": "Works",
@@ -75,6 +88,19 @@ const resources = {
       "home.hi": "¡Hola!",
       "home.im": "Soy",
       "home.name": "Nahuel Brizuela",
+
+      // Typewriter strings
+      "type.welcome": "Bienvenido a mi Portafolio",
+      "type.fullstack": "Desarrollador Full Stack",
+      "type.software_eng": "Ingeniero de Software",
+      "type.problem_solver": "Analítico y resolutor de problemas",
+      "type.passionate": "Apasionado por la tecnología y la innovación",
+      "type.learning": "Dedicado al aprendizaje y crecimiento continuo",
+      "type.testing": "Pruebas automatizadas y control de calidad",
+      "type.collaborative": "Trabajador en equipo colaborativo",
+      "type.communication": "Habilidades de comunicación efectiva",
+      "type.adaptable": "Aprendiz rápido y adaptable",
+      "type.work_ethic": "Fuerte ética de trabajo y atención al detalle",
       
       "projects.title": "Mis Trabajos Recientes",
       "projects.title_highlight": "Recientes",
