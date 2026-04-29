@@ -8,6 +8,41 @@ const resources = {
       "nav.about": "About",
       "nav.projects": "Projects",
       "nav.cv": "CV",
+
+      // About Section
+      "about.title_know": "Know Who",
+      "about.title_im": "I'M",
+      "about.title_skillset": "Professional",
+      "about.title_skillset_highlight": "Skill Set",
+      "about.title_tools": "Tools",
+      "about.title_tools_highlight": "I use",
+
+      "about_card.greeting": "Hi Everyone, I am",
+      "about_card.from": "from",
+      "about_card.role_p1": "I am an",
+      "about_card.role_highlight1": "IT Infrastructure Engineer & Full Stack Developer",
+      "about_card.role_p2": "with a strong focus on",
+      "about_card.role_highlight2": "Scalable Automation",
+      "about_card.desc_p1": "I specialize in architecting",
+      "about_card.desc_highlight1": "Critical Infrastructure",
+      "about_card.desc_p2": ", managing",
+      "about_card.desc_highlight2": "M365 & Intune",
+      "about_card.desc_p3": "ecosystems, and developing custom",
+      "about_card.desc_highlight3": "Node.js",
+      "about_card.desc_p4": "solutions to optimize business workflows. Expertise in",
+      "about_card.desc_highlight4": "MikroTik & Ubiquiti",
+      "about_card.desc_p5": "networking and",
+      "about_card.desc_highlight5": "Cybersecurity",
+      "about_card.desc_p6": "systems.",
+      "about_card.activities_intro": "Apart from technical work, some other activities that I love to do!",
+      "about_card.activity1": "Advanced IP Video Surveillance",
+      "about_card.activity1_desc": "(CCTV, AI Analytics & Recording Solutions)",
+      "about_card.activity2": "Playing",
+      "about_card.activity2_highlight": "Argentinian Folklore",
+      "about_card.activity2_desc": "(Guitar & Music Theory)",
+      "about_card.activity3": "Travelling & Exploring New Cultures",
+      "about_card.activity4": "Gaming & PC Building",
+      "about_card.quote": "\"Strive to build things that make a difference through automation and efficiency!\"",
       
       "home.hi": "Hi There!",
       "home.im": "I'm",
@@ -178,11 +213,10 @@ const resources = {
       "resume.download": "Descargar CV",
 
       "home2.introduce": "PERMÍTEME PRESENTARME",
-      "home2.p1": "Soy Nahuel, un programador autodidacta.",
-      "home2.p2": "Me enamoré de la programación y al menos he aprendido algo, creo… 🤷‍♂️",
-      "home2.p3": "Mi lenguaje favorito es Javascript, pero también estoy interesado en Java.",
-      "home2.p4": "Mis campos de interés son las nuevas tecnologías y productos web, así como áreas relacionadas con el Deep Learning y el Procesamiento de Lenguaje Natural.",
-      "home2.p5": "Siempre que puedo, aplico mi pasión por desarrollar productos con Ruby on Rails, MySQL y bibliotecas y frameworks modernos de Javascript como React.js y Material-UI.",
+      "home2.p1": "Soy Nahuel, un especialista en IT y desarrollador autodidacta apasionado por la eficiencia operativa. Mi enfoque no es solo escribir código, sino construir infraestructuras que funcionen solas.",
+      "home2.p2": "Mi ecosistema principal es JavaScript y TypeScript, los cuales utilizo para automatizar procesos críticos, aunque mantengo una sólida base en Java para arquitecturas robustas.",
+      "home2.p3": "Mis campos de interés actuales son la automatización de infraestructura cloud, la optimización de entornos Microsoft 365/Intune y la implementación de soluciones basadas en IA para mejorar el soporte técnico.",
+      "home2.p4": "Aplico mi experiencia desarrollando herramientas con Node.js, React.js y bases de datos SQL, conectando el mundo del software con la estabilidad de los sistemas empresariales.",
       
       "lang.switch_en": "EN",
       "lang.switch_es": "ES"
@@ -198,11 +232,6 @@ i18n
     fallbackLng: "en",
     interpolation: {
       escapeValue: false 
-    }
-  });
-
-export default i18n;
-eValue: false 
     }
   });
 
