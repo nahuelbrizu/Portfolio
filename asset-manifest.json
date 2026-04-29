@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.0c611a77.css",
-    "main.js": "/Portfolio/static/js/main.6e071e20.js",
+    "main.js": "/Portfolio/static/js/main.ea5241aa.js",
     "static/js/415.a76b28dd.chunk.js": "/Portfolio/static/js/415.a76b28dd.chunk.js",
     "static/js/787.b439b43d.chunk.js": "/Portfolio/static/js/787.b439b43d.chunk.js",
     "static/media/glammap.png": "/Portfolio/static/media/glammap.929fea022cd63a2f688c.png",
     "static/media/raices-network.png": "/Portfolio/static/media/raices-network.555b6b892b700f22751e.png",
+    "static/media/CV_Nahuel_Brizuela_IT.pdf": "/Portfolio/static/media/CV_Nahuel_Brizuela_IT.d874c806c215cb7605fb.pdf",
     "static/media/audioproject.png": "/Portfolio/static/media/audioproject.4760734c86884c894c7a.png",
     "static/media/codeEditor.png": "/Portfolio/static/media/codeEditor.ba9458794dca1c746ef2.png",
     "static/media/blog.png": "/Portfolio/static/media/blog.52102140f369ea233010.png",
@@ -17,18 +18,18 @@
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/turnos-estetica.png": "/Portfolio/static/media/turnos-estetica.d3cc38213d59b4154832.png",
     "static/media/raices-gestion.png": "/Portfolio/static/media/raices-gestion.e8da33b9ed8d3cdd514d.png",
+    "static/media/CV_Nahuel_Brizuela_IT_English.pdf": "/Portfolio/static/media/CV_Nahuel_Brizuela_IT_English.fb01fca4e3289506c0e8.pdf",
     "static/media/emotion.jpeg": "/Portfolio/static/media/emotion.e92e314a236f65bb89af.jpeg",
     "static/media/avatar.svg": "/Portfolio/static/media/avatar.80ca999635ef491c1c1b6c6efdb472f2.svg",
-    "static/media/CV_Nahuel_Brizuela.pdf": "/Portfolio/static/media/CV_Nahuel_Brizuela.3025a0ae6e7082a34f18.pdf",
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
     "main.0c611a77.css.map": "/Portfolio/static/css/main.0c611a77.css.map",
-    "main.6e071e20.js.map": "/Portfolio/static/js/main.6e071e20.js.map",
+    "main.ea5241aa.js.map": "/Portfolio/static/js/main.ea5241aa.js.map",
     "415.a76b28dd.chunk.js.map": "/Portfolio/static/js/415.a76b28dd.chunk.js.map",
     "787.b439b43d.chunk.js.map": "/Portfolio/static/js/787.b439b43d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c611a77.css",
-    "static/js/main.6e071e20.js"
+    "static/js/main.ea5241aa.js"
   ]
 }
