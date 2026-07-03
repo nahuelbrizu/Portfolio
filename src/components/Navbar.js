@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -32,7 +32,10 @@ function NavBar() {
     i18n.changeLanguage(lng);
   };
 
-  window.addEventListener("scroll", scrollHandler);
+  useEffect(() => {
+    window.addEventListener("scroll", scrollHandler);
+    return () => window.removeEventListener("scroll", scrollHandler);
+  }, []);
 
   return (
     <Navbar
@@ -42,7 +45,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand as={Link} to="/" className="d-flex">
           <h2 className="img-fluid logo" alt="brand" >Portfolio Nahuel Brizuela</h2>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -111,14 +114,14 @@ function NavBar() {
               <div className="language-switch" style={{ color: 'white', cursor: 'pointer', display: 'flex', gap: '8px' }}>
                 <span 
                   onClick={() => changeLanguage('en')} 
-                  style={{ fontWeight: i18n.language === 'en' ? 'bold' : 'normal', opacity: i18n.language === 'en' ? 1 : 0.6 }}
+                  style={{ fontWeight: i18n.language.startsWith('en') ? 'bold' : 'normal', opacity: i18n.language.startsWith('en') ? 1 : 0.6 }}
                 >
                   EN
                 </span>
                 <span>|</span>
                 <span 
                   onClick={() => changeLanguage('es')}
-                  style={{ fontWeight: i18n.language === 'es' ? 'bold' : 'normal', opacity: i18n.language === 'es' ? 1 : 0.6 }}
+                  style={{ fontWeight: i18n.language.startsWith('es') ? 'bold' : 'normal', opacity: i18n.language.startsWith('es') ? 1 : 0.6 }}
                 >
                   ES
                 </span>

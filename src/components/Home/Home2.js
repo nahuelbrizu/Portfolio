@@ -39,9 +39,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>{t('home2.find_me')}</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              {t('home2.connect')} <span className="purple">{t('home2.connect_highlight')} </span>{t('home2.connect_end')}
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

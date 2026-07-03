@@ -3,10 +3,11 @@ import Typewriter from "typewriter-effect";
 import { useTranslation } from "react-i18next";
 
 function Type() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <Typewriter
+      key={i18n.language}
       options={{
         strings: [
           t("type.welcome"),
