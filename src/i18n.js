@@ -108,6 +108,9 @@ const resources = {
       "home2.p3": "My current fields of interest are cloud infrastructure automation, Microsoft 365/Intune environment optimization, and the implementation of AI-based solutions to improve technical support.",
       "home2.p4": "I apply my expertise by developing tools with Node.js, React.js, and SQL databases, bridging the world of software with the stability of enterprise systems.",
       
+      "github.days_code": "Days I",
+      "github.days_code_highlight": "Code",
+
       "home2.find_me": "FIND ME ON",
       "home2.connect": "Feel free to",
       "home2.connect_highlight": "connect",
@@ -223,6 +226,9 @@ const resources = {
       "home2.p3": "Mis campos de interés actuales son la automatización de infraestructura cloud, la optimización de entornos Microsoft 365/Intune y la implementación de soluciones basadas en IA para mejorar el soporte técnico.",
       "home2.p4": "Aplico mi experiencia desarrollando herramientas con Node.js, React.js y bases de datos SQL, conectando el mundo del software con la estabilidad de los sistemas empresariales.",
       
+      "github.days_code": "Días que",
+      "github.days_code_highlight": "Codifico",
+
       "home2.find_me": "ENCUÉNTRAME EN",
       "home2.connect": "No dudes en",
       "home2.connect_highlight": "conectarte",
