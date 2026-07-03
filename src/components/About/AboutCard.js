@@ -11,7 +11,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            {t("about_card.greeting")} <span className="purple">Nahuel Brizuela</span> {t("about_card.from")} <span className="purple">Buenos Aires, Argentina.</span>
+            {t("about_card.greeting")} <span className="purple">Nahuel Brizuela</span> {t("about_card.from")} <span className="purple">Ituzaingó, Buenos Aires, Argentina.</span>
             <br />
             <br />
             {t("about_card.role_p1")} <span className="purple">{t("about_card.role_highlight1")}</span> {t("about_card.role_p2")} <span className="purple">{t("about_card.role_highlight2")}</span>.

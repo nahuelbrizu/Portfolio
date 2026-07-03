@@ -13,7 +13,7 @@ function Footer() {
             <h3>Nahuel Brizuela</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-            <h3>   Nahuelgbrizuela@gmail.com      </h3>
+            <h3>nahuelgbrizuela@gmail.com</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
