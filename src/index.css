@@ -1,14 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
-body {
-  margin: 0;
-  font-family: "Raleway", serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
-  overflow-x: hidden;
-  max-width: 100vw;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
-  overflow-x: hidden;
-  max-width: 100vw;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-canvas text-ink font-sans antialiased;
+  font-feature-settings: "ss01" on;
+}
+
+::selection {
+  background: #5e6ad2;
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #010102;
+}
+::-webkit-scrollbar-thumb {
+  background: #23252a;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #34343a;
+}
+
+:focus-visible {
+  outline: 2px solid rgba(94, 105, 209, 0.5);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Faint dot-grid texture used behind the hero — restrained, no color gradient */
+.grid-texture {
+  background-image: radial-gradient(#23252a 1px, transparent 1px);
+  background-size: 24px 24px;
+  mask-image: radial-gradient(ellipse 60% 50% at 50% 0%, black 40%, transparent 100%);
+}
+
+.react-activity-calendar text {
+  fill: #8a8f98 !important;
 }

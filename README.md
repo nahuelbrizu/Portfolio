@@ -1,31 +1,35 @@
-# Portfolio - Brizuela Nahuel
+# Portfolio — Nahuel Brizuela
 
-Este proyecto es un portfolio personal interactivo que muestra mis proyectos, habilidades y trayectoria profesional.
+Portfolio personal: proyectos, stack técnico y CV bilingüe (ES/EN).
 
-## 🛠️ Tecnologías Utilizadas
+Reconstruido desde cero sobre un lenguaje visual inspirado en el sistema de
+diseño de [Linear](https://linear.app) — canvas casi negro, acento lavanda
+único, escritura tipográfica densa — usando como referencia el `DESIGN.md`
+del catálogo [awesome-design-md](https://github.com/voltagent/awesome-design-md).
 
-Este proyecto fue desarrollado utilizando un stack moderno basado en React, enfocado en la interactividad y la experiencia de usuario.
+## Stack
 
-### **Core & Frameworks**
-*   **[React.js (v17)](https://reactjs.org/):** Biblioteca principal para la construcción de la interfaz de usuario.
-*   **[React Router DOM (v6)](https://reactrouter.com/):** Gestión de la navegación y rutas dinámicas en la aplicación.
-*   **[Axios](https://axios-http.com/):** Cliente HTTP para realizar peticiones a APIs.
+- **[Vite](https://vitejs.dev/) + React 18** — build y dev server.
+- **[Tailwind CSS](https://tailwindcss.com/)** — tokens (color, tipografía, radios, spacing) mapeados 1:1 desde el DESIGN.md de Linear.
+- **[react-router-dom](https://reactrouter.com/)** (`HashRouter`, compatible con GitHub Pages) — rutas: `/`, `/about`, `/project`, `/resume`.
+- **[react-i18next](https://react.i18next.com/)** — ES (default) / EN.
+- **[react-github-calendar](https://www.npmjs.com/package/react-github-calendar)** — gráfico de contribuciones, re-teñido en tonos lavanda.
+- **[react-icons](https://react-icons.github.io/react-icons/)** — stack técnico y herramientas.
 
-### **Diseño & UI**
-*   **[Bootstrap 5](https://getbootstrap.com/) & [React-Bootstrap](https://react-bootstrap.github.io/):** Framework de CSS para un diseño responsivo y componentes pre-estilizados.
-*   **[React Icons](https://react-icons.github.io/react-icons/):** Set de iconos populares (FontAwesome, Material Design, etc.) integrados como componentes de React.
-*   **[React Parallax Tilt](https://www.npmjs.com/package/react-parallax-tilt):** Efectos de inclinación (tilt) interactivos en las tarjetas de proyectos.
-*   **[Typewriter Effect](https://www.npmjs.com/package/typewriter-effect):** Animación de escritura dinámica en la sección principal.
-*   **[React TSParticles](https://particles.js.org/):** Fondo animado de partículas interactivas.
+Se removieron intencionalmente Bootstrap, `react-tsparticles`,
+`react-parallax-tilt`, `typewriter-effect` y `react-pdf`: el CV se
+previsualiza con un `<iframe>` nativo (con descarga y apertura en pestaña
+nueva como respaldo), y el hero usa un rotador de texto propio de ~40 líneas
+en vez de una librería completa.
 
-### **Funcionalidades Especiales**
-*   **[i18next](https://www.i18next.com/) & [react-i18next](https://react.i18next.com/):** Implementación de internacionalización (multilenguaje).
-*   **[React PDF](https://projects.wojtekmaj.pl/react-pdf/):** Visualización y manejo de archivos PDF (usado para el CV).
-*   **[React GitHub Calendar](https://www.npmjs.com/package/react-github-calendar):** Integración del gráfico de contribuciones de GitHub.
+## Desarrollo
 
-### **Herramientas de Desarrollo**
-*   **React Scripts:** Configuración base del proyecto (Create React App).
-*   **Jest & Testing Library:** Entorno para pruebas unitarias y de componentes.
+```bash
+npm install
+npm run dev       # servidor de desarrollo
+npm run build     # build de producción a dist/
+npm run deploy    # publica dist/ en GitHub Pages (gh-pages)
+```
 
 ---
 © 2026 Nahuel Brizuela
