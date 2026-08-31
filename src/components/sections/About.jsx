@@ -100,19 +100,8 @@ export default function About() {
             {t("about_card.role_p2")}{" "}
             <span className="text-primary">{t("about_card.role_highlight2")}</span>.
           </p>
-          <p className="mt-4">
-            {t("about_card.desc_p1")}{" "}
-            <span className="text-primary">{t("about_card.desc_highlight1")}</span>
-            {t("about_card.desc_p2")}{" "}
-            <span className="text-primary">{t("about_card.desc_highlight2")}</span>{" "}
-            {t("about_card.desc_p3")}{" "}
-            <span className="text-primary">{t("about_card.desc_highlight3")}</span>{" "}
-            {t("about_card.desc_p4")}{" "}
-            <span className="text-primary">{t("about_card.desc_highlight4")}</span>{" "}
-            {t("about_card.desc_p5")}{" "}
-            <span className="text-primary">{t("about_card.desc_highlight5")}</span>
-            {t("about_card.desc_p6")}
-          </p>
+          <p className="mt-4">{t("about_card.desc_full")}</p>
+          <p className="mt-4">{t("about_card.closing")}</p>
 
           <p className="mt-6 text-sm text-ink-subtle">{t("about_card.activities_intro")}</p>
           <ul className="mt-3 space-y-2 text-sm">

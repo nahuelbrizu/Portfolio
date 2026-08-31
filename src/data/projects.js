@@ -17,7 +17,7 @@ export const projects = [
     descriptionKey: "projects.raices_network.desc",
     tags: ["React", "Node.js"],
     link: "https://github.com/nahuelbrizu/raices-network",
-    demoLink: "https://raices-network.vercel.app/",
+    demoLink: "https://www.raices-network.com.ar/",
   },
   {
     imgPath: raicesGestion,
@@ -25,7 +25,7 @@ export const projects = [
     descriptionKey: "projects.raices_gestion.desc",
     tags: ["React", "PostgreSQL"],
     link: "https://github.com/nahuelbrizu/raices",
-    demoLink: "https://raices-gestion.vercel.app/",
+    demoLink: "https://www.gestion.raices-network.com.ar/",
   },
   {
     imgPath: audioProject,

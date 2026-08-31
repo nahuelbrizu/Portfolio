@@ -13,3 +13,6 @@ build
 
 # editor / logs
 *.log
+
+# Windows/WSL alternate data stream artifacts
+*:Zone.Identifier

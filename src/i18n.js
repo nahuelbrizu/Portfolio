@@ -17,7 +17,7 @@ const resources = {
       "hero.cta_projects": "View projects",
       "hero.cta_resume": "Download CV",
       "hero.status": "Available for work",
-      "hero.location": "Ituzaingó, Buenos Aires, Argentina",
+      "hero.location": "Lanús, Buenos Aires, Argentina",
 
       // Typewriter / role rotator strings
       "type.software_eng": "IT Support Specialist N1–N3",
@@ -38,20 +38,14 @@ const resources = {
       "about_card.greeting": "Hi Everyone, I am",
       "about_card.from": "from",
       "about_card.role_p1": "I am an",
-      "about_card.role_highlight1": "IT Support & Infrastructure Specialist",
-      "about_card.role_p2": "with a strong focus on",
-      "about_card.role_highlight2": "Process Automation",
-      "about_card.desc_p1": "I specialize in multilevel technical support",
-      "about_card.desc_highlight1": "N1 to N3",
-      "about_card.desc_p2": ", administration of",
-      "about_card.desc_highlight2": "Microsoft 365, Azure & Intune",
-      "about_card.desc_p3": "ecosystems, and corporate network management with",
-      "about_card.desc_highlight3": "MikroTik & Ubiquiti",
-      "about_card.desc_p4": ". Expert in SLA-driven incident management via",
-      "about_card.desc_highlight4": "Jira Service Management",
-      "about_card.desc_p5": "and workflow automation using",
-      "about_card.desc_highlight5": "Node.js & TypeScript",
-      "about_card.desc_p6": ".",
+      "about_card.role_highlight1": "Information Technology Specialist",
+      "about_card.role_p2":
+        "with experience in multilevel technical support (N1 to N3), on-site infrastructure administration and management of",
+      "about_card.role_highlight2": "cloud environments",
+      "about_card.desc_full":
+        "Solid command of the Microsoft ecosystem (365, Azure, Entra ID, Intune) and corporate networking (routers, switches, access points, racks), with SLA-driven incident management in Jira Service Management and Active Directory. My differential is process automation and AI integration (n8n, LLMs via API) to optimize operational efficiency.",
+      "about_card.closing":
+        "Proactive profile, with immediate availability, own transportation and a strong drive to learn new technologies.",
       "about_card.activities_intro":
         "Apart from technical work, some other activities that I love to do!",
       "about_card.activity1": "Advanced IP Video Surveillance",
@@ -163,7 +157,7 @@ const resources = {
       "hero.cta_projects": "Ver proyectos",
       "hero.cta_resume": "Descargar CV",
       "hero.status": "Disponible para trabajar",
-      "hero.location": "Ituzaingó, Buenos Aires, Argentina",
+      "hero.location": "Lanús, Buenos Aires, Argentina",
 
       "type.software_eng": "Especialista IT Soporte N1–N3",
       "type.problem_solver": "Administrador de Infraestructura & Cloud",
@@ -182,20 +176,14 @@ const resources = {
       "about_card.greeting": "Hola a todos, soy",
       "about_card.from": "de",
       "about_card.role_p1": "Soy un",
-      "about_card.role_highlight1": "Especialista IT en Soporte & Infraestructura",
-      "about_card.role_p2": "con un fuerte enfoque en",
-      "about_card.role_highlight2": "Automatización de Procesos",
-      "about_card.desc_p1": "Me especializo en soporte técnico multinivel",
-      "about_card.desc_highlight1": "N1 a N3",
-      "about_card.desc_p2": ", administración de ecosistemas",
-      "about_card.desc_highlight2": "Microsoft 365, Azure e Intune",
-      "about_card.desc_p3": "y gestión de redes corporativas con",
-      "about_card.desc_highlight3": "MikroTik y Ubiquiti",
-      "about_card.desc_p4": ". Experto en gestión de incidentes bajo SLA con",
-      "about_card.desc_highlight4": "Jira Service Management",
-      "about_card.desc_p5": "y automatización de flujos operativos con",
-      "about_card.desc_highlight5": "Node.js y TypeScript",
-      "about_card.desc_p6": ".",
+      "about_card.role_highlight1": "Especialista en Tecnologías de la Información",
+      "about_card.role_p2":
+        "con experiencia en soporte técnico multinivel (N1 a N3), administración de infraestructura on-site y gestión de entornos",
+      "about_card.role_highlight2": "cloud",
+      "about_card.desc_full":
+        "Sólido manejo del ecosistema Microsoft (365, Azure, Entra ID, Intune) y de redes corporativas (routers, switches, access points, racks), con gestión de incidentes bajo SLA en Jira Service Management y Active Directory. Mi diferencial es la automatización de procesos e integración de IA (n8n, LLMs vía API) para optimizar la eficiencia operativa.",
+      "about_card.closing":
+        "Perfil proactivo, con disponibilidad inmediata, movilidad propia y gran voluntad de aprender nuevas tecnologías.",
       "about_card.activities_intro":
         "¡Aparte del trabajo técnico, otras actividades que me encanta hacer!",
       "about_card.activity1": "Videovigilancia IP Avanzada",
