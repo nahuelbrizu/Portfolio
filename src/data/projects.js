@@ -32,7 +32,7 @@ export const projects = [
     titleKey: "projects.audioproject.title",
     descriptionKey: "projects.audioproject.desc",
     tags: ["Node.js", "FSM"],
-    link: "https://github.com/nahuelbrizu/audioProject",
+    link: "https://github.com/nahuelbrizu/Lingo-IA-Tu-Tutor-de-Idiomas-Inteligente-y-en-Tiempo-Real-.git",
   },
   {
     imgPath: glamMap,
