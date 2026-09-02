@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <rect width="1600" height="1000" fill="#0a0a0c" />
+  <g opacity="0.5">
+    <circle cx="200" cy="120" r="1.5" fill="#2a2a2e" />
+    <circle cx="260" cy="120" r="1.5" fill="#2a2a2e" />
+    <circle cx="320" cy="120" r="1.5" fill="#2a2a2e" />
+    <circle cx="1280" cy="880" r="1.5" fill="#2a2a2e" />
+    <circle cx="1340" cy="880" r="1.5" fill="#2a2a2e" />
+    <circle cx="1400" cy="880" r="1.5" fill="#2a2a2e" />
+  </g>
+
+  <rect x="160" y="170" width="1280" height="620" rx="16" fill="#141516" stroke="#28292d" stroke-width="1.5" />
+  <path d="M160 186a16 16 0 0 1 16-16h1248a16 16 0 0 1 16 16v54H160v-54z" fill="#1b1c1f" />
+  <circle cx="204" cy="213" r="7" fill="#ff5f57" />
+  <circle cx="228" cy="213" r="7" fill="#febc2e" />
+  <circle cx="252" cy="213" r="7" fill="#28c840" />
+  <text x="800" y="219" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#6b6d76">Menu.ps1 — Help Desk Toolkit</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24" fill="#9a9ba3">
+    <text x="204" y="300"><tspan fill="#5e6ad2">PS C:\&gt;</tspan> .\Menu.ps1</text>
+    <text x="204" y="350" fill="#6b6d76">Nivel 1  &#183;  workstation, red básica, AD puntual</text>
+    <text x="204" y="392" fill="#6b6d76">Nivel 2  &#183;  Active Directory, Microsoft 365</text>
+    <text x="204" y="434" fill="#6b6d76">Nivel 3  &#183;  MikroTik, UniFi, FortiGate, Cisco, servers</text>
+    <text x="204" y="490"><tspan fill="#5e6ad2">&gt;</tspan> <tspan fill="#828fff">Selecciona un nivel de escalamiento_</tspan></text>
+  </g>
+
+  <rect x="204" y="504" width="14" height="28" fill="#828fff" opacity="0.9" />
+
+  <text x="204" y="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="46" font-weight="600" fill="#f4f4f5">Helpdesk Toolkit</text>
+  <text x="204" y="742" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="22" fill="#8a8b93">PowerShell &#183; Bash &#183; Soporte multinivel N1&#8211;N3</text>
+</svg>

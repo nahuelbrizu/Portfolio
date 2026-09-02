@@ -62,6 +62,10 @@ const resources = {
       "projects.title_highlight": "Works",
       "projects.subtitle": "Here are a few projects I've worked on recently.",
 
+      "projects.helpdesk.title": "Helpdesk Toolkit",
+      "projects.helpdesk.desc":
+        "A collection of PowerShell and Bash scripts for IT support, organized into three escalation levels: workstations, Active Directory, Microsoft 365, and network devices (MikroTik, UniFi, FortiGate, Cisco).",
+
       "projects.raices_network.title": "Raíces Network",
       "projects.raices_network.desc":
         "A professional web platform for high-performance network solutions. Features detailed service auditing, infrastructure design, and an integrated technical blog.",
@@ -200,6 +204,10 @@ const resources = {
       "projects.title": "Mis Trabajos",
       "projects.title_highlight": "Recientes",
       "projects.subtitle": "Aquí hay algunos proyectos en los que he trabajado últimamente.",
+
+      "projects.helpdesk.title": "Helpdesk Toolkit",
+      "projects.helpdesk.desc":
+        "Colección de scripts PowerShell y Bash para soporte técnico, organizados en tres niveles de escalamiento: workstations, Active Directory, Microsoft 365 y dispositivos de red (MikroTik, UniFi, FortiGate, Cisco).",
 
       "projects.raices_network.title": "Raíces Network",
       "projects.raices_network.desc":

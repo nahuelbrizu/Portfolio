@@ -9,8 +9,16 @@ import editor from "../Assets/Projects/codeEditor.png";
 import chatify from "../Assets/Projects/chatify.png";
 import suicide from "../Assets/Projects/suicide.png";
 import bitsOfCode from "../Assets/Projects/blog.png";
+import helpdeskToolkit from "../Assets/Projects/helpdesk-toolkit.svg";
 
 export const projects = [
+  {
+    imgPath: helpdeskToolkit,
+    titleKey: "projects.helpdesk.title",
+    descriptionKey: "projects.helpdesk.desc",
+    tags: ["PowerShell", "Bash"],
+    link: "https://github.com/nahuelbrizu/helpdesk-toolkit",
+  },
   {
     imgPath: raicesNetwork,
     titleKey: "projects.raices_network.title",
