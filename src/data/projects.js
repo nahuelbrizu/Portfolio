@@ -41,6 +41,7 @@ export const projects = [
     descriptionKey: "projects.audioproject.desc",
     tags: ["Node.js", "FSM"],
     link: "https://github.com/nahuelbrizu/Lingo-IA-Tu-Tutor-de-Idiomas-Inteligente-y-en-Tiempo-Real-.git",
+    demoLink: "https://35-193-9-228.sslip.io/",
   },
   {
     imgPath: glamMap,
