@@ -10,8 +10,16 @@ import chatify from "../Assets/Projects/chatify.png";
 import suicide from "../Assets/Projects/suicide.png";
 import bitsOfCode from "../Assets/Projects/blog.png";
 import helpdeskToolkit from "../Assets/Projects/helpdesk-toolkit.svg";
+import tecnicoAltoque from "../Assets/Projects/tecnico-altoque.jpg";
 
 export const projects = [
+  {
+    imgPath: tecnicoAltoque,
+    titleKey: "projects.tecnico_altoque.title",
+    descriptionKey: "projects.tecnico_altoque.desc",
+    tags: ["SEO", "Schema.org", "Google Ads"],
+    demoLink: "https://www.tecnicoaltoque.com.ar/",
+  },
   {
     imgPath: helpdeskToolkit,
     titleKey: "projects.helpdesk.title",

@@ -62,6 +62,10 @@ const resources = {
       "projects.title_highlight": "Works",
       "projects.subtitle": "Here are a few projects I've worked on recently.",
 
+      "projects.tecnico_altoque.title": "Técnico al Toque",
+      "projects.tecnico_altoque.desc":
+        "Website for a home-repair company (electricians, plumbers, tech service) in Buenos Aires. Focused on SEO and Google ranking: meta tags, Open Graph, Schema.org LocalBusiness structured data, local landing pages, and Analytics/Ads conversion tracking.",
+
       "projects.helpdesk.title": "Helpdesk Toolkit",
       "projects.helpdesk.desc":
         "A collection of PowerShell and Bash scripts for IT support, organized into three escalation levels: workstations, Active Directory, Microsoft 365, and network devices (MikroTik, UniFi, FortiGate, Cisco).",
@@ -204,6 +208,10 @@ const resources = {
       "projects.title": "Mis Trabajos",
       "projects.title_highlight": "Recientes",
       "projects.subtitle": "Aquí hay algunos proyectos en los que he trabajado últimamente.",
+
+      "projects.tecnico_altoque.title": "Técnico al Toque",
+      "projects.tecnico_altoque.desc":
+        "Sitio web para una empresa de técnicos a domicilio (electricidad, plomería, service tech) en Buenos Aires. Enfocado en SEO y posicionamiento en Google: meta tags, Open Graph, datos estructurados Schema.org LocalBusiness, páginas por zona y medición de conversiones con Analytics/Ads.",
 
       "projects.helpdesk.title": "Helpdesk Toolkit",
       "projects.helpdesk.desc":

@@ -38,9 +38,11 @@ function ProjectCard({ project }) {
         )}
 
         <div className="mt-2 flex gap-3">
-          <Button href={project.link} target="_blank" rel="noreferrer" variant="secondary" className="flex-1">
-            <AiFillGithub /> {t("projects.view_project")}
-          </Button>
+          {project.link && (
+            <Button href={project.link} target="_blank" rel="noreferrer" variant="secondary" className="flex-1">
+              <AiFillGithub /> {t("projects.view_project")}
+            </Button>
+          )}
           {project.demoLink && (
             <Button href={project.demoLink} target="_blank" rel="noreferrer" variant="tertiary">
               <HiOutlineExternalLink /> {t("projects.view_demo")}
