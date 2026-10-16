@@ -10,7 +10,7 @@ import chatify from "../Assets/Projects/chatify.png";
 import suicide from "../Assets/Projects/suicide.png";
 import bitsOfCode from "../Assets/Projects/blog.png";
 import helpdeskToolkit from "../Assets/Projects/helpdesk-toolkit.svg";
-import tecnicoAltoque from "../Assets/Projects/tecnico-altoque.jpg";
+import tecnicoAltoque from "../Assets/Projects/tecnico-altoque.png";
 
 export const projects = [
   {
