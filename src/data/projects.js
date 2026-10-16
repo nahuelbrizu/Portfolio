@@ -32,7 +32,6 @@ export const projects = [
     titleKey: "projects.raices_network.title",
     descriptionKey: "projects.raices_network.desc",
     tags: ["React", "Node.js"],
-    link: "https://github.com/nahuelbrizu/raices-network",
     demoLink: "https://www.raices-network.com.ar/",
   },
   {
@@ -40,7 +39,6 @@ export const projects = [
     titleKey: "projects.raices_gestion.title",
     descriptionKey: "projects.raices_gestion.desc",
     tags: ["React", "PostgreSQL"],
-    link: "https://github.com/nahuelbrizu/raices",
     demoLink: "https://www.gestion.raices-network.com.ar/",
   },
   {
