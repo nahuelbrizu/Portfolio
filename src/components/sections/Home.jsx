@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import Button from "../ui/Button";
 import Badge from "../ui/Badge";
 import RoleRotator from "../ui/RoleRotator";
-import pdfES from "../../Assets/CV_Nahuel_Brizuela_Soporte_IT.pdf";
+import pdfES from "../../Assets/CV_Nahuel_Brizuela.pdf";
 import pdfEN from "../../Assets/CV_Nahuel_Brizuela_IT_English.pdf";
 
 export default function Home() {

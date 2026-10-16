@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { AiOutlineDownload } from "react-icons/ai";
 import SectionHeading from "../ui/SectionHeading";
 import Button from "../ui/Button";
-import pdfES from "../../Assets/CV_Nahuel_Brizuela_Soporte_IT.pdf";
+import pdfES from "../../Assets/CV_Nahuel_Brizuela.pdf";
 import pdfEN from "../../Assets/CV_Nahuel_Brizuela_IT_English.pdf";
 
 export default function Resume() {
