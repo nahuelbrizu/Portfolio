@@ -4,9 +4,8 @@ import audioProject from "../Assets/Projects/audioproject.png";
 import glamMap from "../Assets/Projects/glammap.png";
 import turnosEstetica from "../Assets/Projects/turnos-estetica.png";
 import leaf from "../Assets/Projects/leaf.png";
-import emotion from "../Assets/Projects/emotion.jpeg";
-import editor from "../Assets/Projects/codeEditor.png";
-import chatify from "../Assets/Projects/chatify.png";
+import hashtagSearcher from "../Assets/Projects/hashtag-searcher.webp";
+import cryptoAnalyzer from "../Assets/Projects/crypto-analyzer.webp";
 import suicide from "../Assets/Projects/suicide.png";
 import bitsOfCode from "../Assets/Projects/blog.png";
 import helpdeskToolkit from "../Assets/Projects/helpdesk-toolkit.svg";
@@ -64,14 +63,6 @@ export const projects = [
     link: "https://github.com/nahuelbrizu/services_calendar",
   },
   {
-    imgPath: chatify,
-    titleKey: "projects.dashboard.title",
-    descriptionKey: "projects.dashboard.desc",
-    tags: ["Next.js", "TypeScript"],
-    link: "https://github.com/nahuelbrizu/dashboard_next",
-    demoLink: "https://dashboard-next.vercel.app/",
-  },
-  {
     imgPath: bitsOfCode,
     titleKey: "projects.amplify.title",
     descriptionKey: "projects.amplify.desc",
@@ -79,7 +70,7 @@ export const projects = [
     link: "https://github.com/nahuelbrizu/Amplifyapp-",
   },
   {
-    imgPath: editor,
+    imgPath: cryptoAnalyzer,
     titleKey: "projects.crypto.title",
     descriptionKey: "projects.crypto.desc",
     tags: ["TypeScript"],
@@ -100,7 +91,7 @@ export const projects = [
     link: "https://github.com/nahuelbrizu/log_api",
   },
   {
-    imgPath: emotion,
+    imgPath: hashtagSearcher,
     titleKey: "projects.hashtag.title",
     descriptionKey: "projects.hashtag.desc",
     tags: ["JavaScript"],

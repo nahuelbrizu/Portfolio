@@ -90,10 +90,6 @@ const resources = {
       "projects.turnos_estetica.desc":
         "A full-stack booking system for beauty services. Includes geolocated business search, interactive scheduling, and a comprehensive management dashboard.",
 
-      "projects.dashboard.title": "Dashboard Next",
-      "projects.dashboard.desc":
-        "A modern and responsive dashboard application built using Next.js and TypeScript. It leverages server-side rendering and static site generation for optimal performance and SEO.",
-
       "projects.amplify.title": "AWS Amplify App",
       "projects.amplify.desc":
         "A full-stack React application integrated with AWS Amplify, demonstrating scalable cloud-powered apps with AWS auth, API and storage services.",
@@ -236,10 +232,6 @@ const resources = {
       "projects.turnos_estetica.title": "Turnos Estética",
       "projects.turnos_estetica.desc":
         "Sistema full-stack de reservas para servicios estéticos. Incluye búsqueda geolocalizada, agenda interactiva y dashboard de gestión integral.",
-
-      "projects.dashboard.title": "Dashboard Next",
-      "projects.dashboard.desc":
-        "Una aplicación de panel moderna y adaptable construida con Next.js y TypeScript. Aprovecha SSR y SSG para un rendimiento y SEO óptimos.",
 
       "projects.amplify.title": "Aplicación AWS Amplify",
       "projects.amplify.desc":
